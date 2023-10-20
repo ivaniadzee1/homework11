@@ -1,0 +1,104 @@
+@media (width > 768px){
+    header{
+        column-gap: 460px;
+        padding-left: 20px;
+    }
+    .textes{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .text{
+        margin-left: 40px;
+    }
+    .g1{
+        display: none;
+    }
+    .g2{
+        display: block;
+        margin-top: -120px;
+        margin-left: -10px;
+    }
+    .down{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        justify-content: center;
+        row-gap: 56px;
+        column-gap: 10px;
+        margin-bottom: 86px;
+    }
+    .textes2{
+        width: 339px;
+        height: 259px;
+        flex-shrink: 0;
+        padding: 56px 21px 139px 32px;
+    }
+    footer{
+        column-gap: 460px;
+        padding-left: 40px;
+    }
+    .gt:hover{
+        background-color: #666CA3;
+    }
+}
+
+@media (width > 1440px){
+    header{
+        column-gap: 865px;
+        padding-top: 20px;
+    }
+    .gt1{
+        width: 167px;
+        height: 56px;
+        flex-shrink: 0;
+    }
+    .textes{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .text{
+        margin-left: 165px;
+        margin-top: 120px;
+    }
+    .g1{
+        display: none;
+    }
+    .g2{
+        display: none;
+    }
+    .g3{
+        display: block;
+        margin-left: 66px;
+        margin-top: -152px;
+    }
+    .mx{
+        width: 500px;
+        font-size: 56px;
+    }
+    .kok{
+        width: 445px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .down{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        column-gap: 30px;
+        row-gap: 80px;
+        justify-content: center;
+        margin-top: 134px;
+        margin-bottom: 140px;
+    }
+    footer{
+        padding-left: 165px;
+        column-gap: 930px;
+    }
+    .gt:hover{
+        background-color: #666CA3;
+    }
+}
